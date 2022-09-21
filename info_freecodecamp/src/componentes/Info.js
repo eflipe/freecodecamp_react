@@ -1,7 +1,7 @@
 import React from 'react';
 
 // componente funcional
-function Info() {
+export function Info() {
   // retorna un jsx
   return (
     <div className="contenedor-info">
@@ -19,5 +19,3 @@ function Info() {
   );
 
 }
-
-export default Info;
