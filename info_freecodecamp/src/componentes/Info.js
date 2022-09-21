@@ -8,6 +8,11 @@ function Info() {
       <img className="imagen-info"
            src={require("../img/van_1.jpeg")}
            alt="Foto 1" />
+      <div className="contenedor-texto-info">
+        <p className="nombre-info"> Nombre </p>
+        <p className="cargo-info">Ocupación</p>
+        <p className="text-info">Blah blah blah</p>
+      </div>
 
     </div>
 
