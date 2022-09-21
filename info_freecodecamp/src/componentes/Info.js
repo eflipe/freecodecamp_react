@@ -10,9 +10,15 @@ export function Info(props) {
            src={require(`../img/van_${props.imagen}.jpeg`)}
            alt="Foto 1" />
       <div className="contenedor-texto-info">
-        <p className="nombre-info">{props.nombre} en {props.pais}</p>
-        <p className="cargo-info">{props.ocupacion} en {props.empresa}</p>
-        <p className="text-info">{props.texto}</p>
+        <p className="nombre-info">
+          <strong>{props.nombre}</strong> en {props.pais}
+        </p>
+        <p className="cargo-info">
+           {props.ocupacion} en <strong>{props.empresa}</strong>
+        </p>
+        <p className="text-info">
+          {props.texto}
+        </p>
       </div>
 
     </div>
