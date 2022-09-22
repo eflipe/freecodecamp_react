@@ -8,7 +8,7 @@ export function Boton({ texto, esBotonDeClic, manejarClic }) {
   return (
     <button type="button"
       className={ esBotonDeClic ? "boton-clic" : "boton-reiniciar" }
-      onClick={}>
+      onClick={manejarClic}>
       {texto}
     </button>
   );
