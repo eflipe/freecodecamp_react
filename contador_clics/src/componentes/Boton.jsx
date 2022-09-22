@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Boton.css';
 
 // props es un objeto
 // texto aca es una variable
