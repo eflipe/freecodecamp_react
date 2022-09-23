@@ -3,7 +3,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      hola mundo inmundo
+      <div className="logo-contenedor">
+        <img
+          src=""
+          className="logo"
+          alt="Logo" />
+      </div>
+      <div className="contenedor-calculadora">
+
+      </div>
+
     </div>
   );
 }
