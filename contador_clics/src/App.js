@@ -17,8 +17,9 @@ function App() {
 
   }
 
-  const reiniciarContador_funcion = () => {
+  const reiniciarContador = () => {
     console.log("Soy reiniciarContador");
+    setNumClics(0);
   }
 
   return (
@@ -35,7 +36,7 @@ function App() {
         <Boton
         texto="Reinicar"
         esBotonDeClic={false}
-        manejarClic={reiniciarContador_funcion} />
+        manejarClic={reiniciarContador} />
       </div>
     </div>
   );
