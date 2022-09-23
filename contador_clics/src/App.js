@@ -14,13 +14,12 @@ function App() {
     console.log("Soy la función manejarClic");
     setNumClics(numClics + 1);
     console.log(numClics);
-
-  }
+  };
 
   const reiniciarContador = () => {
     console.log("Soy reiniciarContador");
     setNumClics(0);
-  }
+  };
 
   return (
     <div className="App">
