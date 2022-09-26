@@ -1,3 +1,5 @@
+import '../estilos/Boton.css';
+
 
 function Boton(props) {
   const esOperador = valor => {
