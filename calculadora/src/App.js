@@ -20,7 +20,12 @@ function App() {
   const calcularResultado = () => {
     console.log("INPUT --->")
     console.log(input)
-    setInput(evaluate(input))
+    if (input) {
+      setInput(evaluate(input));
+    } else {
+      alert("Por favor ingrese valores para realizar los cálculos.");
+    }
+
   };
 
 
