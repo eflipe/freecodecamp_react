@@ -11,6 +11,9 @@ function App() {
   const agregarInput = val => {
     setInput(input + val);
   };
+  const clearInput = () => {
+    setInput('');
+  };
 
 
   return (
@@ -50,7 +53,7 @@ function App() {
         <Boton manejarClic={agregarInput} >/</Boton>
         </div>
         <div className="fila">
-        <BotonClear>
+        <BotonClear manejarClic={clearInput}>
           Clear
         </BotonClear>
         </div>
